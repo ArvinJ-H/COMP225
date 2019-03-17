@@ -1,6 +1,6 @@
 For all nodes n lying between head and temp it is the case that n.info!=x.
 
-list a & c:
+List a & c:
 x=2
 
 temp=head
@@ -15,6 +15,7 @@ loop terminated
 
 For all nodes n lying between head and temp : 1
 n.info != x.
+
 
 List b:
 x = 2
