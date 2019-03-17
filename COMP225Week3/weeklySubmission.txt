@@ -1,0 +1,37 @@
+For all nodes n lying between head and temp it is the case that n.info!=x.
+
+list a & c:
+x=2
+
+temp=head
+temp.info = 1
+temp != null && temp.info !=x
+temp=temp.next
+
+temp.info = 2
+temp !=null, temp.info = x
+
+loop terminated
+
+For all nodes n lying between head and temp : 1
+n.info != x.
+
+List b:
+x = 2
+
+temp=head
+temp.info = 1
+temp != null && temp.info !=x
+temp=temp.next
+
+temp.info = 1
+temp != null && temp.info !=x
+temp=temp.next
+
+temp.info = 2
+temp !=null, temp.info = x
+
+loop terminated
+
+For all nodes n lying between head and temp : 1 1
+n.info != x.
